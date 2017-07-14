@@ -1,7 +1,7 @@
 <?php
 
 class Member extends MY_Controller{
-	private $Mserver="mongodb://semut:Semut123@167.205.7.226:27017/bsts_new";
+
 	function __construct(){
 		parent::__construct();
 		$this->load->model('member_model');
