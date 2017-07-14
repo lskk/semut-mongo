@@ -1,0 +1,14 @@
+#my-map {
+	height: 500px;
+}
+
+#my-table table {
+	width: 100%;
+	font-size: 11pt;
+	border-collapse: collapse;
+}
+
+#my-table table th, #my-table table td {
+	border: 1px solid #999;
+	padding: 5px 10px;
+}

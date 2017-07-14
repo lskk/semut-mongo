@@ -1,0 +1,123 @@
+/* CSS Document */
+
+/*
+ * IMporting the font
+*/	
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Roboto);
+
+/*
+ * General styling
+ */
+/*.controller{
+		 background: url(../images/back.jpg) no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+ 		 -o-background-size: cover;
+  		background-size: cover;
+		height:100%;
+		} */
+ body {
+	padding:0;
+	margin:0;
+	background-color:#424a5d;
+	}
+	
+	
+h1{
+	margin:60px auto;
+	padding:0;
+	font-family: 'Calibri';
+	font-size:35px;
+	font-weight:1000;
+	color:#666;
+	text-align:center;
+	}	
+h2{
+	margin:10px auto;
+	padding:0;
+	font-family: 'Calibri';
+	font-size:20px;
+	font-weight:1000;
+	color:#2980b9;
+	text-align:center;
+	}
+	
+/*
+ * Styling the container for the login form.
+ */
+
+.login {
+	width:400px;
+	height:500px;
+	padding:15px;
+	margin:30px;
+	background-color:#ffffff;
+	position: center;
+	text-align: left;
+	}
+/*
+ * Styling the Lables and checkbox font
+ */
+		
+label {
+	font-size:20px;
+	font-family: 'Calibri';
+	color:#666;
+	}
+		
+
+/*
+ * General Input Style
+ */
+		
+input[type="text"],
+input[type="password"],
+input[type="submit"],
+input[type="button"]  {
+	width: calc(100% - 33px);
+	margin:10px 0 10px 0;
+	padding:5px;
+	border: solid 1px #ccc;
+	font-size:19px;
+	background-color:#ecf0f1;
+	}	
+
+/*
+ * Styling the Buttons
+ */
+		
+input[type="submit"],
+input[type="button"] {
+	position:relative;
+	width:calc(50% - 13px);
+	background-color:#3498db;
+	border:none;
+	color:#FFF;
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+	-webkit-box-shadow: 0px 9px 0px #2980b9;
+    -moz-box-shadow: 0px 9px 0px #2980b9;
+    box-shadow: 0px 9px 0px #2980b9;
+	}
+	
+input[type="submit"]:active,
+input[type="button"]:active{
+	
+	-webkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	transition: all 0.1s;
+	
+    position:relative;
+    top:7px;
+	
+    -webkit-box-shadow: 0px 2px 0px #16a085;
+    -moz-box-shadow: 0px 2px 0px #16a085;
+    box-shadow: 0px 2px 0px #16a085;
+}	
+	
+input[type="submit"] {
+	float:right;
+	}
